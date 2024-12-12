@@ -23,6 +23,3 @@ for word in text_to_translate:
     translated_code += "/ "
 
 print(translated_code)
-
-
-# THIS IS FOR A TEST, COMMENTED CODE
