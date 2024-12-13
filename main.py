@@ -51,11 +51,13 @@ while translate:
         answer = input("Would you like to translate again? ").lower()
         if answer == "no":
             translate = False
+            print("See you again!")
     elif morse_or_text == "morse":
         print("Translating morse...")
         morse_to_text()
         answer = input("Would you like to translate again? ").lower()
         if answer == "no":
             translate = False
+            print("See you again!")
     else:
         print("That's not a valid input. Please try again.")
